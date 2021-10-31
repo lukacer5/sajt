@@ -1,0 +1,75 @@
+* {
+    font-family: verdana;
+    font-weight: bold;
+    color: #303030;
+}
+body {
+    background-image: url("../img/pozadina.jpg");
+    background-repeat: repeat;
+    background-position: top left;
+    background-attachment: fixed;
+}
+textarea, input{
+    border-radius:8pt;
+    border: 2px solid brown;
+    margin-top: 5px;
+    resize:none;
+}
+form{
+    border-radius:8pt;
+    border: 2px solid brown;
+    width: 350px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+h1 {
+    color: brown;
+    text-decoration: underline;
+}
+.slika {
+    border: 5px solid maroon;
+    border-radius: 10pt;
+}
+h3 {
+    color: brown;
+    font-weight: bold;
+}
+hr{
+    border: 2px solid brown;
+    border-radius: 10pt;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.header{
+    text-align: center;
+    margin: auto;
+}
+.main_panel{
+    margin-left: 40px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    margin-right: 40px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10pt;
+}
+.button{
+    background-color: brown;
+    border-radius: 3px;
+    padding: 10px;
+    color:white;
+    text-decoration: none;
+    border: none;
+}
+#skole{
+    border: 3px solid darkred;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+td{
+    padding:5px;
+}
+
+a{
+    color:darkred;
+}
